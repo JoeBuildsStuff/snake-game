@@ -433,7 +433,8 @@ export default function Game() {
       <div className="absolute top-0 left-0 right-0 z-10 bg-black/90 backdrop-blur-sm p-4">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-white mb-1">Snake 2048</h1>
-          <p className="text-gray-300 text-sm mb-2">Move your mouse to control the snake! Same values merge automatically!</p>
+          <p className="text-gray-300 text-sm mb-1">Move your mouse to control the snake! Same values merge automatically!</p>
+          <p className="text-gray-500 text-xs mb-2">Made by Audrey from California</p>
           <div className="flex justify-center items-center gap-6 text-sm">
             <div className="text-blue-400 font-semibold">Score: {score}</div>
             <div className="text-green-400">Segments: {totalSegments}</div>
